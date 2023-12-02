@@ -25,6 +25,4 @@ import { TitleComponent } from './title/title.component';
 })
 export class AppModule {
 
-     title = 'Bitcoin Is For Everyone';
-
 }

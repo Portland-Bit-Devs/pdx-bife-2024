@@ -10,6 +10,7 @@ declare var _: any;
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
+
   title = 'Bitcoin Is For Everyone 2024';
 
   constructor() {
