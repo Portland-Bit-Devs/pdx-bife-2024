@@ -21,6 +21,10 @@ Considering using deployment to Azure storage account instead of GitHub pages: h
     ng serve --open
     ng add angular-cli-ghpages
     ng build --output-path docs --base-href /pdx-bife-2024/
-    ng generate component Home
-    ng generate component About
+    ng generate component home --flat
+    ng generate component about
+    ng generate component header
+    ng generate component title
+
+
 
