@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import 'lodash';
+
+declare var _: any;
 
 @Component({
   selector: 'app-root',
@@ -7,5 +10,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pdx-bife-2024';
+
+  constructor() {
+    console.log(_.random(1, 100));
+  }
 
 }
