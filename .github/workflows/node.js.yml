@@ -32,4 +32,4 @@ jobs:
     #          node-version: 16.20.2
     #          cache: 'npm'
     #      - run: npm ci
-    #      - run: node your-deployment-script.js
+    #      - run: not used currently.  the build command updates the static folder.
