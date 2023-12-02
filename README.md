@@ -19,5 +19,5 @@ Site is developed using NPM 8.x, Node v16.20.2, and Angular 16.2.0 with SCSS sty
     ng serve --open
     ng add angular-cli-ghpages
     ng build --output-path docs --base-href /pdx-bife-2024/
-
+    ## added .github/workflows/.node.js.yml
 
