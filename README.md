@@ -17,10 +17,10 @@ Considering using deployment to Azure storage account instead of GitHub pages: h
     ng new pdx-bife-2024
     npm install -g @angular/cli@16.2.0
     npm install
-    ng build
-    ng analytics disable
+    npm run build
     ng serve --open
     ng add angular-cli-ghpages
     ng build --output-path docs --base-href /pdx-bife-2024/
-    ## added .github/workflows/.node.js.yml
+    ng generate component Home
+    ng generate component About
 
