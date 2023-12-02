@@ -14,16 +14,16 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: 16.20.2
+    #    strategy:
+    #      matrix:
+    #        node-version: 16.20.2
 
     steps:
     - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js 16.20.2
       uses: actions/setup-node@v4
       with:
-        node-version: 16
+        node-version: 16.20.2
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
