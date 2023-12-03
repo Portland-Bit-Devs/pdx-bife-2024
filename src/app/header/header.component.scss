@@ -14,12 +14,6 @@ $dark_grey: #333333;
 $grey: #404040;
 $white: #fff;
 
-// not using global default font
-@font-face {
-    font-family: 'Roboto';
-    src: url(../../assets/Roboto-Regular.ttf) format('truetype');
-}
-
 .entire-section {
   font-family: 'Roboto', serif;
 }

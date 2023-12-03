@@ -8,8 +8,19 @@
     src: url(assets/Nunito-Regular.ttf) format('truetype');
 }
 
-.entire-section {
-  font-family: 'Nunito', sans-serif;
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url(assets/Nunito-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(assets/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(assets/Roboto-Bold.ttf) format('truetype');
 }
 
 // palette
@@ -28,15 +39,12 @@ $dark_grey: #333333;
 $grey: #404040;
 $white: #fff;
 
-
 html, body {
   height: 100%;
   margin: 0;
-  font-family: Consolas, monospace;
 }
 
 body {
-  font-family: Consolas, monospace;
-  background: linear-gradient(to bottom, $orange, $dark_grey);
-
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(to bottom, $orange, $grey);
 }
