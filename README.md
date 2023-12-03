@@ -25,6 +25,5 @@ Considering using deployment to Azure storage account instead of GitHub pages: h
     ng generate component about
     ng generate component header
     ng generate component title
-
-
-
+    ng generate component contact
+    ng generate component sponsor
