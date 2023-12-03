@@ -1,6 +1,15 @@
 
-// title section
+// not using global default font
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../assets/Roboto-Regular.ttf) format('truetype');
+}
 
+.entire-section {
+  font-family: 'Roboto', serif;
+}
+
+// scss
 .title-container {
   display: flex;
   align-items: center; /* Vertically aligns content */
@@ -15,7 +24,7 @@
 }
 
 .title-text {
-  font-family: Consolas, monospace; /* Use Consolas font */
+  font-family: Roboto, serif; /* Use Consolas font */
   font-size: 48px; /* Set font size to 32 pixels */
-  font-style: italic; /* Set font style to italic */
+  font-style: bold; /* Set font style to italic */
 }
