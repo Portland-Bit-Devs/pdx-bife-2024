@@ -11,6 +11,7 @@ import { TitleComponent } from './title/title.component';
 import { ContactComponent } from './contact/contact.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
 import { PassesComponent } from './passes/passes.component';
+import { ScheduleComponent } from './schedule/schedule.component';
 
 @NgModule({
   providers: [
@@ -24,7 +25,8 @@ import { PassesComponent } from './passes/passes.component';
     TitleComponent,
     ContactComponent,
     SponsorComponent,
-    PassesComponent
+    PassesComponent,
+    ScheduleComponent
   ],
   imports: [
     BrowserModule,
