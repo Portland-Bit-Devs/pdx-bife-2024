@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -10,6 +11,9 @@ import { TitleComponent } from './title/title.component';
 import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ],
   declarations: [
     AppComponent,
     HomeComponent,
@@ -22,7 +26,6 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule {
