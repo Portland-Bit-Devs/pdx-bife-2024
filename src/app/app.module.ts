@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { TitleComponent } from './title/title.component';
 import { ContactComponent } from './contact/contact.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
+import { PassesComponent } from './passes/passes.component';
 
 @NgModule({
   providers: [
@@ -22,7 +23,8 @@ import { SponsorComponent } from './sponsor/sponsor.component';
     HeaderComponent,
     TitleComponent,
     ContactComponent,
-    SponsorComponent
+    SponsorComponent,
+    PassesComponent
   ],
   imports: [
     BrowserModule,
