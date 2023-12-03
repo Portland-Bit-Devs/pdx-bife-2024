@@ -1,18 +1,1 @@
 
-$orange: #FFA500;
-$black: #000000;
-$grey: #404040;
-$white: #fff;
-$green: #008000;
-
-html, body {
-  height: 100%;
-  margin: 0;
-  font-family: Consolas, monospace;
-}
-
-body {
-  font-family: Consolas, monospace;
-  background: linear-gradient(to bottom, $orange, $grey);
-  /* Other styles for the body */
-}
