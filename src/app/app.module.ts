@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
 import { TitleComponent } from './title/title.component';
 import { ContactComponent } from './contact/contact.component';
+import { SponsorComponent } from './sponsor/sponsor.component';
 
 @NgModule({
   providers: [
@@ -20,7 +21,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     HeaderComponent,
     TitleComponent,
-    ContactComponent
+    ContactComponent,
+    SponsorComponent
   ],
   imports: [
     BrowserModule,
