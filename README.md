@@ -28,3 +28,4 @@ Considering using deployment to Azure storage account instead of GitHub pages: h
     ng generate component title
     ng generate component contact
     ng generate component sponsor
+    ng generate component passes
