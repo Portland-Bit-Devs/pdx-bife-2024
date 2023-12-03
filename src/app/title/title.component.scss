@@ -12,19 +12,19 @@
 // scss
 .title-container {
   display: flex;
-  align-items: center; /* Vertically aligns content */
-  margin-bottom: 10px; /* Adds spacing between title components */
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .left-image {
-  width: 200px; /* Set image width */
-  height: 200px; /* Set image height */
-  margin-right: 20px; /* Adds space between image and text */
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
   padding: 20px;
 }
 
 .title-text {
-  font-family: Roboto, serif; /* Use Consolas font */
-  font-size: 48px; /* Set font size to 32 pixels */
-  font-style: bold; /* Set font style to italic */
+  font-family: Roboto, serif;
+  font-size: 64px;
+  font-style: bold;
 }

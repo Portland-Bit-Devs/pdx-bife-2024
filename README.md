@@ -32,3 +32,14 @@ To deploy, you must first run `npm run build` locally, then check in the changes
     ng generate component sponsor
     ng generate component passes
     ng generate component schedule
+
+### Font configuration
+
+Uses instructions from this site:
+
+    https://www.telerik.com/blogs/angular-basics-how-best-use-fonts-angular
+
+Default font for the site is set in the `styles.css` global file.   You can override the font by putting a font config in the `.scss` file of a sub-component.
+
+Choose a font pair from this site: https://www.fontpair.co/all
+
