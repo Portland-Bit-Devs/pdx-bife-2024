@@ -27,7 +27,7 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets/BifE-Logo1.png"
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"
@@ -90,7 +90,7 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets/BifE-Logo1.png"
+              "src/assets"
             ],
             "styles": [
               "src/styles.scss"
