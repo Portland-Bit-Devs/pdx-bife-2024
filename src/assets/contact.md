@@ -1,4 +1,6 @@
-# Contact Us
+# Contact Us (Test Content)
+
+Testing a markdown file in the site
 
 Welcome to our Socratic Seminar events, designed to foster passionate debate, share information, and ignite lively discussions around the
 world of Bitcoin and related protocols. Inspired by Bitdevs communities nationwide, our gatherings are tailored for individuals enthusiastic
