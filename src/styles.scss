@@ -46,5 +46,7 @@ html, body {
 
 body {
   font-family: 'Nunito', sans-serif;
-  background: linear-gradient(to bottom, $orange, $grey);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, $orange, $grey);
 }

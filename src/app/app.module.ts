@@ -13,6 +13,7 @@ import { SponsorComponent } from './sponsor/sponsor.component';
 import { PassesComponent } from './passes/passes.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { MarkdownModule } from 'ngx-markdown';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   providers: [
@@ -31,6 +32,7 @@ import { MarkdownModule } from 'ngx-markdown';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     MarkdownModule.forRoot(),
     AppRoutingModule
   ],
