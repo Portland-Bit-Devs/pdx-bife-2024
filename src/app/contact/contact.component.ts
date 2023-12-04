@@ -13,11 +13,11 @@ export class ContactComponent implements OnInit {
     constructor(private http: HttpClient) {}
 
     ngOnInit(): void {
-      this.fetchMarkdownFile();
+      this.fetchMarkdownFile('assets/site/contact.md');
     }
 
-    fetchMarkdownFile(): void {
-      this.http.get('assets/contact.md', { responseType: 'text' })
+    fetchMarkdownFile(path: string): void {
+      this.http.get(path, { responseType: 'text' })
         .subscribe((data: string) => {
           this.markedData = data;
         });
