@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
 import { PassesComponent } from './passes/passes.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { MarkdownModule } from 'ngx-markdown';
 
 @NgModule({
   providers: [
@@ -30,6 +31,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
   ],
   imports: [
     BrowserModule,
+    MarkdownModule.forRoot(),
     AppRoutingModule
   ],
   bootstrap: [AppComponent]

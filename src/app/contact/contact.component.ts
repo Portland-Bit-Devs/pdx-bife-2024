@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
 
+    public markedData = "# Some markdown data";
+
+
+
 }
