@@ -11,6 +11,8 @@ Site is developed using NPM 8.x, Node v16.20.2, and Angular 16.2.0 with SCSS sty
 
 Use Node Version Manager (nvm) to install Node v16.20.2 on your machine.
 
+NOTE: Should we send email with SendGrid? https://console.cloud.google.com/marketplace/details/sendgrid-app/sendgrid-email
+
 ## Developer Setup
 
     npm install -g @angular/cli@16.2.0
