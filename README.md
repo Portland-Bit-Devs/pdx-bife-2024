@@ -33,6 +33,7 @@ To deploy, you must first run `npm run build` locally, then check in the changes
     ng generate component sponsor
     ng generate component passes
     ng generate component schedule
+    npm i ngx-markdown@16.0.0
 
 ### Font configuration
 
