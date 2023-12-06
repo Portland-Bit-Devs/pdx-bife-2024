@@ -44,6 +44,7 @@ Commands that created this project, more or less in order of occurence.
     ng generate component schedule
     npm i ngx-markdown@16.0.0
     npm i marked@4.3.0
+    ng generate component sponsor/why-sponsor
 
 ### Font configuration
 

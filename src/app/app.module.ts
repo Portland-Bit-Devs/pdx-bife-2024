@@ -14,6 +14,7 @@ import { PassesComponent } from './passes/passes.component';
 import { ScheduleComponent } from './schedule/schedule.component';
 import { MarkdownModule } from 'ngx-markdown';
 import { HttpClientModule } from '@angular/common/http';
+import { WhySponsorComponent } from './sponsor/why-sponsor/why-sponsor.component';
 
 @NgModule({
   providers: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
     ContactComponent,
     SponsorComponent,
     PassesComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    WhySponsorComponent
   ],
   imports: [
     BrowserModule,

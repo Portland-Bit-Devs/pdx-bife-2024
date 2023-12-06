@@ -1,0 +1,19 @@
+
+.why-sponsor-container {
+  padding: 50px;
+}
+
+.conference-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.conference-tile {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px; /* Adjust width as needed */
+}
