@@ -9,7 +9,7 @@ export class WhySponsorComponent {
 
   sectionHeader = {
     title: 'WHY SPONSOR?',
-    content: 'Take your place as an industry leader at THE WORLD\'S LARGEST BITCOIN CONFERENCE. Showcase your brand and foster relationships at the most important location for thought leaders, builders, and digital asset professionals to network and connect.'
+    content: 'Take your place as a regional industry leader at PORTLAND\'S FIRST BITCOIN CONFERENCE. Showcase your brand and foster relationships at the most important location for thought leaders, builders, and digital asset professionals to network and connect.'
   }
 
   conferenceDetails = [
