@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  messages: string[] = ["Welcome!", "Latest News", "Important Update"];
+  messages: string[] = ["Welcome!", "Latest News"];
 
   constructor() { }
 

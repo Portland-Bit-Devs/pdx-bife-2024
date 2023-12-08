@@ -1,6 +1,6 @@
 // palette
 $orange: #FFA500;
-$light_orange: #FFCC80;
+$light_orange: #FFAC1C;
 $medium_orange: #FFB74D;
 
 $blue: #1976D2;
@@ -10,6 +10,7 @@ $green: #4CAF50;
 $light_green: #81C784;
 
 $black: #000000;
+$charcoal: #36454F;
 $dark_grey: #333333;
 $grey: #404040;
 $white: #fff;
@@ -20,7 +21,7 @@ $white: #fff;
 
 // scss
 header {
-  background-color: $orange;
+  background-color: $charcoal;
   color: $white;
   padding: 15px;
   text-align: center;
@@ -43,12 +44,12 @@ nav ul li {
 }
 
 nav ul li:last-child {
-  margin-right: 0;
+  margin-right: 200px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: $white;
+  color: $light_orange;
   font-weight: bold;
   font-size: 24px;
 }

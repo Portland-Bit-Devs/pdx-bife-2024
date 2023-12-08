@@ -2,6 +2,23 @@
       Otherwise you would have to use the  encapsulation: ViewEncapsulation.None option to allow spill over
 */
 
+// palette
+$orange: #FFA500;
+$light_orange: #FFCC80;
+$medium_orange: #FFB74D;
+
+$blue: #1976D2;
+$light_blue: #64B5F6;
+
+$green: #4CAF50;
+$light_green: #81C784;
+
+$black: #000000;
+$charcoal: #36454F;
+$dark_grey: #333333;
+$grey: #404040;
+$white: #fff;
+
 // global default font config
 @font-face {
     font-family: 'Nunito';
@@ -23,22 +40,6 @@
     src: url(assets/Roboto-Bold.ttf) format('truetype');
 }
 
-// palette
-$orange: #FFA500;
-$light_orange: #FFCC80;
-$medium_orange: #FFB74D;
-
-$blue: #1976D2;
-$light_blue: #64B5F6;
-
-$green: #4CAF50;
-$light_green: #81C784;
-
-$black: #000000;
-$dark_grey: #333333;
-$grey: #404040;
-$white: #fff;
-
 html, body {
   height: 100%;
   margin: 0;
@@ -46,11 +47,25 @@ html, body {
 
 body {
   font-family: 'Nunito', sans-serif;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-image: linear-gradient(to bottom, $orange, $grey);
+  font-color: $light_orange;
+  background-color: $black;
+  //background-repeat: no-repeat;
+  //background-attachment: fixed;
+  //background-image: linear-gradient(to bottom, $black, $charcoal);
 }
 
 img {
   border-radius: 10px;
+}
+
+.font-span {
+    color: $orange;
+}
+
+p {
+    padding: 5px;
+}
+
+.markdownBlock {
+    padding: 50px;
 }

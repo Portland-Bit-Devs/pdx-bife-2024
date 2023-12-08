@@ -1,4 +1,8 @@
 
+.home-container {
+    padding: 40px;
+}
+
 .popup-container {
   position: fixed; /* Keeps the popup container in a fixed position */
   top: 20px; /* Distance from the top of the viewport */
@@ -7,12 +11,13 @@
 }
 
 .message-popup {
-  background-color: #f1f1f1;
+  background-color: #FFAC1C;
   border: 1px solid #ccc;
   border-radius: 12px;
   padding: 10px;
   margin-bottom: 10px;
   height: 50px;
+  width: 300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
