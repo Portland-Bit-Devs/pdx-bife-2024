@@ -1,2 +1,13 @@
 
+<div class="popup-container">
+  <div *ngFor="let message of messages" class="message-popup">
+    <span>{{ message }}</span>
+    <button class="close-btn" (click)="closePopup(message)">X</button>
+  </div>
+</div>
+
 <p>Trying to emulate this site: <a href="https://b.tc/conference/2024" target="_blank">Bitcoin Conference, Hashville</a></p>
+
+
+
+

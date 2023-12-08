@@ -1,0 +1,27 @@
+
+.popup-container {
+  position: fixed; /* Keeps the popup container in a fixed position */
+  top: 20px; /* Distance from the top of the viewport */
+  right: 20px; /* Distance from the right of the viewport */
+  z-index: 1000; /* Ensures the popups appear above other content */
+}
+
+.message-popup {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.close-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
