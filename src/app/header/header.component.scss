@@ -1,5 +1,5 @@
 // palette
-$orange: #FFA500;
+$orange: #F8A145;
 $light_orange: #FFAC1C;
 $medium_orange: #FFB74D;
 
@@ -21,8 +21,7 @@ $white: #fff;
 
 // scss
 header {
-  background-color: $charcoal;
-  color: $white;
+  background-color: $black;
   padding: 15px;
   text-align: center;
 }
@@ -49,7 +48,7 @@ nav ul li:last-child {
 
 nav ul li a {
   text-decoration: none;
-  color: $light_orange;
+  color: $black;
   font-weight: bold;
   font-size: 24px;
 }
