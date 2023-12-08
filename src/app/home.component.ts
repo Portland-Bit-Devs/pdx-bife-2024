@@ -7,16 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  messages: string[] = [];
+  messages: string[] = ["Welcome!", "Latest News", "Important Update"];
 
   constructor() { }
 
   ngOnInit(): void {
-     this.messages = ["Welcome!", "Latest News", "Important Update"];
+     this.messages = this.messages.filter(msg => !sessionStorage.getItem(`dismissed-${msg}`));
   }
 
   closePopup(message: string) {
-    this.messages = this.messages.filter(m => m !== message);
+    sessionStorage.setItem(`dismissed-${message}`, 'true');
+    this.messages = this.messages.filter(m => m !== message)
   }
 
 }
