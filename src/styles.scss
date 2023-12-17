@@ -7,8 +7,7 @@ $orange: #F8A145;
 $light_orange: #FFCC80;
 $medium_orange: #FFB74D;
 
-$blue: #1976D2;
-$light_blue: #64B5F6;
+$light_blue: #0000FF;
 
 $green: #4CAF50;
 $light_green: #81C784;
@@ -18,6 +17,7 @@ $charcoal: #36454F;
 $dark_grey: #333333;
 $grey: #404040;
 $white: #fff;
+
 
 // global default font config
 @font-face {
@@ -40,36 +40,60 @@ $white: #fff;
     src: url(assets/Roboto-Bold.ttf) format('truetype');
 }
 
+
 html, body {
   height: 100%;
-  margin: 0;
-}
-
-body {
-  font-family: 'Nunito', sans-serif;
-  font-color: $light_orange;
-  background-color: $black;
-  //background-repeat: no-repeat;
-  //background-attachment: fixed;
-  //background-image: linear-gradient(to bottom, $black, $charcoal);
-}
-
-a {
-  color: $blue;
+  margin: 4;
 }
 
 img {
   border-radius: 10px;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  font-color: $light_orange;
+  background-color: $black;
+}
+
+a {
+  color: $light_blue;
 }
 
 .font-span {
     color: $orange;
 }
 
-p {
-    padding: 5px;
+
+// Mobile devices
+@media (max-width: 600px) {
+  .markdownBlock {
+      padding: 10px;
+  }
+
+  p {
+      padding: 5px;
+  }
 }
 
-.markdownBlock {
-    padding: 50px;
+// Tablets
+@media (min-width: 601px) and (max-width: 1024px) {
+  .markdownBlock {
+      padding: 30px;
+  }
+
+  p {
+      padding: 5px;
+  }
 }
+
+// Desktop
+@media (min-width: 1025px) {
+  .markdownBlock {
+      padding: 50px;
+  }
+
+  p {
+      padding: 5px;
+  }
+}
+
